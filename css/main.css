@@ -9,9 +9,39 @@ h4{
   border-width: 3px;
   border-color: rgb(255,193,7) }
 
+.selfintro{
+	padding: 5%;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 140%;
+}
+.selfintroheading{
+	padding-top: 5%;
+	padding-left:5%;
+	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+	text-transform: uppercase;
+}
+
 #contacts{
 	padding-top: 5%;
 }
+
+/*.portrait{
+	width: 90%;
+	height: 90%;
+}*/
+.btn-primary {
+  color: white;
+  border-color: #ffc107;
+  background-color:#ffc107; }
+.btn-primary:hover {
+    color: white;
+    border-color: #ff9800;
+    background-color: #ff9800; }
+
+.resume-btn{
+	margin-left: 30%;
+}
+
 
 .btn-social {
   font-size: 20px;
