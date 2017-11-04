@@ -1,4 +1,5 @@
-h2{
+.section-heading{
+  margin-top: 5%;
 	font-family: noto-serif;
 }
 h4{
@@ -78,12 +79,33 @@ font-weight: 200;
   margin:auto;
 }
 
+.intro{
+  font-family: 'Marck Script', cursive;
+  color: #eee;
+  font-size: 20pt;
+  text-align: center;
+/*  padding-left: 40%;*/
+  padding-top:10%;
+}
+.intro-2{
+  font-family: 'Noto Serif', serif;
+  color: #eee;
+  font-size: 40pt;
+  text-align: center;
+}
+.intro-3{
+  font-family: "Marck Script", cursive;
+  text-align:center;
+  color:#eee;
+  font-size: 20pt;
+/*  margin-bottom: 1%;*/
+}
 figcaption{
   text-align: center;
 }
 
 .mycarousel{
-  height: 680px;
+  height: 400px;
   background-image: url("../img/home_11.jpg");
 }
 .project-para-detail{
