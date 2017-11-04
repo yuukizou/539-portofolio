@@ -19,10 +19,21 @@ h4{
 }
 .selfintroheading{
 /*	padding-top: 5%;*/
-font-weight: 200;
-	padding-left:5%;
-	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-	text-transform: uppercase;
+font-size:40pt;
+  padding-left:5%;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+}
+
+.section-subheading{
+margin-bottom: 5%;
+}
+
+.img-self{
+  margin-top: 5%;
+/*  width: 60%;*/
 }
 
 #contacts{
@@ -59,7 +70,8 @@ font-weight: 200;
     background-color: #ff9800; }
 
 .resume-btn{
-	margin-left: 30%;
+	margin-left: 20%;
+  margin-bottom: 2%;
 }
 
 .img-port{
@@ -166,4 +178,20 @@ figcaption{
       font-size: 16px; }
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
       font-size: 22px; } }
+@media screen and (min-width: 350px) and (max-width: 769px){
+  .resume-btn{
+  margin-left: 30%;
+}
+.img-self{
+  margin-top: 8%;
+}
+.project-title {
+    width: 100%;
+    margin:auto;
+}
+.project-type{
+  margin-left: 20%;
+  margin-top:5%;
+}
+}
 
