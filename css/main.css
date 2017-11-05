@@ -182,11 +182,23 @@ figcaption{
     opacity: 1; }
   .portfolio-box:focus {
     outline: none; }
+
+  @media (max-width: 480px) {
+  .intro{
+    padding-top: 20%;
+  }
+}
+@media (min-width: 481px){
+  .intro{
+    padding-top: 10%;
+  }
+  }
   @media (min-width: 768px) {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
       font-size: 16px; }
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
       font-size: 22px; } }
+}
 @media screen and (min-width: 350px) and (max-width: 769px){
   .resume-btn{
   margin-left: 30%;
