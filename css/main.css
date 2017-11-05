@@ -5,6 +5,15 @@
 h4{
 	font-family: noto-serif;
 }
+.logo-item{
+  display: inline;
+  width: 15%;
+}
+.social-icon {
+  width:40%;
+  height:40%;
+}
+
 .main{
   max-width: 50px;
   border-width: 3px;
