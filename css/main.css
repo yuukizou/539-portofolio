@@ -135,8 +135,7 @@ figcaption{
   background-image: url("../img/home_11.jpg");
 }
 .project-para-detail{
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin:5%;
 /*  line-height: 5px;*/
 }
 .btn-social {
