@@ -2,6 +2,26 @@
   margin-top: 5%;
 	font-family: noto-serif;
 }
+
+.go-top{
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 15px;
+  padding: 1em;
+  display: none;
+  font-family: 'noto-serif';
+  font-weight: 10px;
+}
+
+.go-top:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+  color: white;
+}
 h4{
 	font-family: noto-serif;
 }
